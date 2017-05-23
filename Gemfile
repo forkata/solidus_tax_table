@@ -5,4 +5,8 @@ gem 'solidus', github: 'solidusio/solidus', branch: branch
 
 gem 'solidus_auth_devise'
 
+group :development, :test do
+    gem "pry-rails"
+end
+
 gemspec
